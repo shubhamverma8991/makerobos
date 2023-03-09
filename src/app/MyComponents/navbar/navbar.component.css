@@ -1,0 +1,18 @@
+.nav_container {
+  height: 100vh;
+  background-color: var(--color-baseclr);
+  overflow: auto;
+  width: 4%;
+}
+.link_container {
+  width: 80%;
+  margin: 0 auto;
+}
+.navlinks {
+  text-align: center;
+  margin: 1rem auto;
+}
+.icons {
+  color: var(--color-bg);
+  font-size: 20px;
+}
