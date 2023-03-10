@@ -1,0 +1,81 @@
+.addintent_container {
+  width: 100vw;
+  height: 90vh;
+  background-color: rgba(128, 128, 128, 0.5);
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-left: 8rem;
+  align-items: center;
+}
+.inner_container {
+  background-color: white;
+  width: 650px;
+  height: 400px;
+  padding: 1rem 1rem 1rem 2rem;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+h3,
+h4 {
+  font-weight: 700;
+}
+.close {
+  display: inline-block;
+  border: 2px solid grey;
+  background-color: white;
+  /* padding: 0.5rem 1rem; */
+  padding: 5px 1rem;
+}
+
+.submit {
+  text-align: center;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #fff1df;
+  color: orange;
+  border: 1px solid orange;
+  padding: 0 0.4rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-weight: 700;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.details {
+  margin-top: 1rem;
+}
+ul {
+}
+.list {
+  list-style: disc;
+  margin: 0.5rem;
+}
+.singles {
+  padding: 0.5rem 0;
+  list-style: disc;
+
+  display: flex;
+  justify-content: space-between;
+}
+.singles > div > a {
+  line-height: 1;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--color-baseclr);
+}
+.btn {
+  text-align: center;
+  width: 150px;
+}
+.add-btn {
+  background-color: white;
+  color: var(--color-secondary-text);
+  border-color: rgb(211, 211, 211);
+}

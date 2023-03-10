@@ -12,7 +12,8 @@ app-options-display {
   width: 72%;
   /* width: calc(100%-28%); */
 }
-app-add-intent {
+app-add-intent,
+app-select-intent {
   position: absolute;
   top: 10vh;
   left: 3.9%;

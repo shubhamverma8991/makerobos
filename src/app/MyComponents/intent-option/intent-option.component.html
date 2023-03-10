@@ -4,7 +4,7 @@
     Create a intent and add multiple utterance to let Isntinct AI answers
     automatically
   </p>
-  <button class="btn">+ Add intent</button>
+  <button class="btn" (click)="addintent()">+ Add intent</button>
 
   <div class="labels">
     <div class="label_header">
@@ -25,9 +25,53 @@
       </span>
     </div>
     <div class="datas">
-      <div class="img">
+      <div class="img" *ngIf="intentpresent">
         <img src="../../../assets/empty.gif" alt="" class="emptyimg" />
         <p>Not enough data to show insights</p>
+      </div>
+      <div class="data" *ngIf="datadiv">
+        <div class="columns" *ngFor="let intent of intentarraydata">
+          <div class="details">
+            <p class="tag">Unanswerd</p>
+            <h3>{{ intent.title }}</h3>
+            <p>{{ intent.msg }}</p>
+          </div>
+          <div class="actions">
+            <button class="action-btn">Map to existing reply</button>
+            <button class="action-btn">Add reply</button>
+            <button class="action-btn no-border">
+              <i class="far fa-clipboard"></i>
+            </button>
+          </div>
+        </div>
+        <!-- <div class="columns">
+          <div class="details">
+            <p class="tag">Unanswerd</p>
+            <h3>What time you are open..</h3>
+            <p>Asked 32 times last week</p>
+          </div>
+          <div class="actions">
+            <button class="action-btn">Map to existing reply</button>
+            <button class="action-btn">Add reply</button>
+            <button class="action-btn no-border">
+              <i class="far fa-clipboard"></i>
+            </button>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="details">
+            <p class="tag">Unanswerd</p>
+            <h3>Where are you folks located...</h3>
+            <p>Asked 32 times last week</p>
+          </div>
+          <div class="actions">
+            <button class="action-btn">Map to existing reply</button>
+            <button class="action-btn">Add reply</button>
+            <button class="action-btn no-border">
+              <i class="far fa-clipboard"></i>
+            </button>
+          </div>
+        </div> -->
       </div>
     </div>
   </div>

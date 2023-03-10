@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { CatchAllOptionComponent } from './MyComponents/catch-all-option/catch-all-option.component';
 import { AnalyticsOptionComponent } from './MyComponents/analytics-option/analytics-option.component';
 import { IntentOptionComponent } from './MyComponents/intent-option/intent-option.component';
+import { SelectIntentComponent } from './MyComponents/select-intent/select-intent.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { IntentOptionComponent } from './MyComponents/intent-option/intent-optio
     CatchAllOptionComponent,
     AnalyticsOptionComponent,
     IntentOptionComponent,
+    SelectIntentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

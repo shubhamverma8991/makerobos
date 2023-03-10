@@ -1,1 +1,39 @@
-<p>analytics-option works!</p>
+<div class="analytics_option_container">
+  <h3>Summary</h3>
+  <p>
+    Discover which intents are most regularly queried and gain a deeper
+    understanding into the interests of your users.
+  </p>
+  <div class="analytics_option_container_inner">
+    <div class="search">
+      <button class="icon">
+        <i class="fa fa-search"></i
+        ><input
+          type="text"
+          name=""
+          id=""
+          placeholder="search intent or utterance"
+        />
+      </button>
+    </div>
+    <div class="labels">
+      <h5>Intent</h5>
+      <h5>Messages</h5>
+      <h5>Importance</h5>
+      <h5>Accuracy</h5>
+      <h5>Catch all</h5>
+    </div>
+    <div class="results">
+      <div
+        *ngFor="let data of analyticsdata; let odd = odd; let even = even"
+        class="row"
+      >
+        <h5>{{ data.title }}</h5>
+        <h5>{{ data.message }}</h5>
+        <h5>{{ data.importance | percent }}</h5>
+        <h5 [ngClass]="{ odd: odd, even: even }">{{ data.accuracy }}</h5>
+        <h5>{{ data.catch }}</h5>
+      </div>
+    </div>
+  </div>
+</div>
