@@ -8,6 +8,11 @@ import { TopBarComponent } from './MyComponents/top-bar/top-bar.component';
 import { MainScreenComponent } from './MyComponents/main-screen/main-screen.component';
 import { MainOptionsComponent } from './MyComponents/main-options/main-options.component';
 import { OptionsDisplayComponent } from './MyComponents/options-display/options-display.component';
+import { AddIntentComponent } from './MyComponents/add-intent/add-intent.component';
+import { FormsModule } from '@angular/forms';
+import { CatchAllOptionComponent } from './MyComponents/catch-all-option/catch-all-option.component';
+import { AnalyticsOptionComponent } from './MyComponents/analytics-option/analytics-option.component';
+import { IntentOptionComponent } from './MyComponents/intent-option/intent-option.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +21,14 @@ import { OptionsDisplayComponent } from './MyComponents/options-display/options-
     TopBarComponent,
     MainScreenComponent,
     MainOptionsComponent,
-    OptionsDisplayComponent
+    OptionsDisplayComponent,
+    AddIntentComponent,
+    CatchAllOptionComponent,
+    AnalyticsOptionComponent,
+    IntentOptionComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

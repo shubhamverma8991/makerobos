@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: 100vh;
+  overflow: auto;
+}
 .container,
 .flex {
   width: 100%;
@@ -13,7 +17,8 @@
   /* justify-content: space-between; */
 }
 app-navbar {
-  width: 3.9%;
+  /* width: calc(100%-96%); */
+  width: 4%;
 }
 .flex-2 > div {
   width: 100%;

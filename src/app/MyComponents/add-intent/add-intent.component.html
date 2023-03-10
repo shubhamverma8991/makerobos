@@ -1,0 +1,41 @@
+<div class="addintent_container">
+  <div class="inner_container">
+    <div class="heading">
+      <div class="detailhead">
+        <h3>Intent Name</h3>
+        <p>Intent represent a task that Instinct AI needs to carry out.</p>
+        <input type="text" name="help" id="help" placeholder="I need help" />
+        <div class="addform">
+          <h3>Add Utterance</h3>
+          <p>
+            Create atleast 5 variations to allow Makerobo's Natural Language
+            Understanding (NLU) to automatically match intents with user
+            input.The more Utterance you enter, the better chance this intent
+            will be matched.
+          </p>
+          <input type="text" placeholder="Please help me" />
+          <input type="text" placeholder="Need assitance" />
+          <button class="add">+ Add another variation</button>
+
+          <div class="reply">
+            <h3>Add reply</h3>
+            <textarea
+              name="reply"
+              id="reply"
+              cols="30"
+              rows="5"
+              placeholder="Bot says"
+            ></textarea>
+            <button class="add">+ Add random message</button>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <button class="close">Close</button>
+      </div>
+    </div>
+    <div class="submit">
+      <button class="btn">Create Intent</button>
+    </div>
+  </div>
+</div>

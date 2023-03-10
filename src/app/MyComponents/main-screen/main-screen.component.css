@@ -4,8 +4,16 @@
   flex-direction: row;
 }
 app-main-options {
+  position: relative;
   width: 28%;
+  /* width: calc((100%-72%)); */
 }
 app-options-display {
   width: 72%;
+  /* width: calc(100%-28%); */
+}
+app-add-intent {
+  position: absolute;
+  top: 10vh;
+  left: 3.9%;
 }

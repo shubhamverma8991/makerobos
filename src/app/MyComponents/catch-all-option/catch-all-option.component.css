@@ -1,0 +1,115 @@
+.catch_option_container {
+  /* background-color: white; */
+  padding: 1.7rem 3rem;
+  width: 60%;
+}
+h3,
+h4 {
+  font-weight: 700;
+}
+/* Drop down */
+.dropdown {
+  position: relative;
+  margin: 1rem 0;
+}
+.dropdown .dropbtn {
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+  /* color: white; */
+  /* padding: 14px 16px; */
+  padding: 0.4rem 1rem;
+  /* background-color: rgb(229, 229, 229); */
+  font-family: inherit;
+  margin: 0;
+  font-weight: normal;
+  background-color: white;
+  border: 1px solid rgb(210, 210, 210);
+}
+.dropbtn > i {
+  padding-left: 10px;
+  border-left: 1px solid rgb(147, 147, 147);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translateX(10%);
+  /*background-color: #f9f9f9;
+  */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  -webkit-transform: translateX(10%);
+  -moz-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  -o-transform: translateX(10%);
+}
+
+.dropdown-content a {
+  font-size: 0.8rem;
+  /* font-weight: 600; */
+  float: none;
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.active {
+  background-color: rgb(230, 230, 230);
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  background-color: rgb(230, 230, 230);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+/* reply */
+.reply {
+  margin: 1rem 0;
+}
+textarea {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  margin: 10px 0;
+  padding: 5px 3px;
+  resize: none;
+}
+textarea::placeholder {
+  padding: 0.5rem;
+  font-weight: 700;
+  color: rgb(183, 182, 182);
+}
+
+.add {
+  background-color: rgb(229, 227, 227);
+  border: none;
+  padding: 0.3rem 0.5rem;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.add:hover {
+  font-weight: 700;
+}
+
+.extrawidth {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
