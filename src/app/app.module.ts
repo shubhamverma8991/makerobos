@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './MyComponents/navbar/navbar.component';
 import { TopBarComponent } from './MyComponents/top-bar/top-bar.component';
+import { MainScreenComponent } from './MyComponents/main-screen/main-screen.component';
+import { MainOptionsComponent } from './MyComponents/main-options/main-options.component';
+import { OptionsDisplayComponent } from './MyComponents/options-display/options-display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    TopBarComponent
+    TopBarComponent,
+    MainScreenComponent,
+    MainOptionsComponent,
+    OptionsDisplayComponent
   ],
   imports: [
     BrowserModule,

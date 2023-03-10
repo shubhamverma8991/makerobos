@@ -1,0 +1,11 @@
+.mainScreen_container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+app-main-options {
+  width: 28%;
+}
+app-options-display {
+  width: 72%;
+}

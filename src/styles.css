@@ -30,6 +30,8 @@ ul {
 :root {
   --color-baseclr: #00826b;
   --color-bg: #ffffff;
+  --color-secondary-text: #6e6e6e;
+  --transition: all 400ms ease;
 }
 
 html {
@@ -41,4 +43,44 @@ html {
 }
 body {
   background-color: var(--color-bg);
+  width: 100%;
+}
+
+p {
+  color: var(--color-secondary-text);
+  font-size: 0.8rem;
+}
+button {
+  cursor: pointer;
+}
+
+/* !! COmmon CSS for all component */
+.btn {
+  margin: 10px 0;
+  background-color: var(--color-baseclr);
+  color: white;
+  border: none;
+  border: 2px solid var(--color-baseclr);
+  padding: 0.3rem 0.65rem;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.btn:hover {
+  background-color: white;
+  color: var(--color-baseclr);
+}
+
+.select-btn {
+  display: inline-block;
+  background-color: white;
+  padding: 0.2rem 0.6rem;
+  border: 2px solid rgb(164, 164, 164);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }

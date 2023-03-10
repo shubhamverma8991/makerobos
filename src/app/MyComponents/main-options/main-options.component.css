@@ -1,0 +1,34 @@
+.options_container {
+  background-color: #f2f2f2;
+  height: 87vh;
+  overflow: auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.bot_detail {
+  /* display: flex;
+  flex-direction: row; */
+  margin-bottom: 2rem;
+}
+/* .color {
+  width: 10px;
+  background-color: var(--color-baseclr);
+} */
+.text {
+  width: 100%;
+  padding: 1rem;
+}
+h3 {
+  font-weight: 700;
+}
+.option {
+  width: 100%;
+  padding: 1rem;
+  border-top: 1px solid rgb(199, 199, 199);
+}
+.active {
+  background-color: white;
+  border: none;
+  border-left: 10px solid var(--color-baseclr);
+}

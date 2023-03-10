@@ -2,17 +2,34 @@
   height: 100vh;
   background-color: var(--color-baseclr);
   overflow: auto;
-  width: 4%;
+  width: 60px;
 }
 .link_container {
   width: 80%;
+  /* height: 100vh; */
+  /* height: inherit; */
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 82%;
 }
 .navlinks {
   text-align: center;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
+
 .icons {
-  color: var(--color-bg);
   font-size: 20px;
+}
+.big-icons {
+  font-size: 30px;
+}
+
+.navlinks > li {
+  margin: 1rem 0;
+  color: var(--color-bg);
+}
+.my-1 {
+  margin-top: 1rem;
 }
