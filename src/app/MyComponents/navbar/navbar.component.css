@@ -2,7 +2,7 @@
   height: 100vh;
   background-color: var(--color-baseclr);
   overflow: auto;
-  width: 60px;
+  width: 100%;
 }
 .link_container {
   width: 80%;
@@ -21,14 +21,51 @@
 
 .icons {
   font-size: 20px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.icons:hover,
+.icons > img:hover {
+  font-size: 22px;
+  cursor: pointer;
+  width: 33px;
+}
+.icons > img {
+  width: 30px;
+  height: auto;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
 }
 .big-icons {
   font-size: 30px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.big-icons:hover {
+  font-size: 35px;
 }
 
 .navlinks > li {
   margin: 1rem 0;
   color: var(--color-bg);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  cursor: pointer;
+}
+.navlinks > li:hover {
+  font-size: 22px;
 }
 .my-1 {
   margin-top: 1rem;

@@ -21,6 +21,9 @@
 h3 {
   font-weight: 700;
 }
+.addform > p {
+  margin: 0.5rem 0;
+}
 input,
 textarea {
   display: block;
@@ -52,12 +55,14 @@ textarea::placeholder {
   background-color: white;
   /* padding: 0.5rem 1rem; */
   padding: 5px 1rem;
+  font-weight: 550;
 }
 
 .add {
+  margin-top: 0.4rem;
   background-color: rgb(229, 227, 227);
   border: none;
-  padding: 0.3rem 0.5rem;
+  padding: 0.2rem 0.6rem;
   transition: var(--transition);
   -webkit-transition: var(--transition);
   -moz-transition: var(--transition);
@@ -72,4 +77,7 @@ textarea::placeholder {
 }
 .submit {
   text-align: center;
+}
+.btn {
+  width: 120px;
 }

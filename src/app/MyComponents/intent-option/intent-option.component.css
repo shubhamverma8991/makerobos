@@ -36,6 +36,8 @@ span > div {
 }
 .img > p {
   color: black;
+  font-size: 0.8rem;
+  font-weight: 550;
 }
 .emptyimg {
   width: 50%;
@@ -46,6 +48,7 @@ span > div {
 
 .dropdown .dropbtn {
   font-size: 0.8rem;
+  font-weight: 550;
   border: none;
   outline: none;
   /* color: white; */
@@ -54,7 +57,7 @@ span > div {
   /* background-color: rgb(229, 229, 229); */
   font-family: inherit;
   margin: 0;
-  font-weight: normal;
+  /* font-weight: normal; */
   background-color: white;
   border: 1px solid rgb(210, 210, 210);
 }
@@ -133,7 +136,7 @@ span > div {
   border: 1px solid pink;
   border-radius: 5px;
   background-color: rgb(251, 214, 220, 0.9);
-  color: rgb(253, 41, 76);
+  color: #e32e3d;
   padding: 0 0.5rem;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -141,8 +144,20 @@ span > div {
   -o-border-radius: 5px;
   font-weight: 700;
 }
-.details > h3 {
-  padding: 0.2rem 0;
+.orange {
+  border: 1px solid pink;
+  background-color: #ffe7cb;
+  color: rgb(253, 41, 76);
+}
+.purple {
+  background-color: #f7e4f8;
+  color: #b52cc9;
+}
+.details > h4 {
+  padding: 0.3rem 0;
+}
+.icon {
+  font-size: 0.6rem;
 }
 .actions {
   display: flex;

@@ -28,12 +28,15 @@ h4 {
   background-color: white;
   /* padding: 0.5rem 1rem; */
   padding: 5px 1rem;
+  font-weight: 550;
 }
 
 .submit {
   text-align: center;
 }
-
+.icon {
+  font-size: 0.6rem;
+}
 .tag {
   display: inline-block;
   background-color: #fff1df;

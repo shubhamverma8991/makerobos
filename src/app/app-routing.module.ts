@@ -4,9 +4,11 @@ import { MainScreenComponent } from './MyComponents/main-screen/main-screen.comp
 import { CatchAllOptionComponent } from './MyComponents/catch-all-option/catch-all-option.component';
 import { AnalyticsOptionComponent } from './MyComponents/analytics-option/analytics-option.component';
 import { IntentOptionComponent } from './MyComponents/intent-option/intent-option.component';
+import { IntentSearchComponent } from './MyComponents/intent-search/intent-search.component';
 
 const routes: Routes = [
   { path: '', component: IntentOptionComponent },
+  { path: 'intent', component: IntentSearchComponent },
   {
     path: 'catch',
     component: CatchAllOptionComponent,

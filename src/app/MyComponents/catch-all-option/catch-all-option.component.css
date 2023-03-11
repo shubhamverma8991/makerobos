@@ -1,6 +1,7 @@
 .catch_option_container {
   /* background-color: white; */
-  padding: 1.7rem 3rem;
+  padding: 0 3rem;
+  padding-top: 2.1rem;
   width: 60%;
 }
 h3,
@@ -79,6 +80,7 @@ h4 {
 /* reply */
 .reply {
   margin: 1rem 0;
+  margin-top: 1.4rem;
 }
 textarea {
   display: block;
@@ -112,4 +114,8 @@ textarea::placeholder {
   width: 200px;
   display: flex;
   justify-content: space-between;
+  color: rgb(137, 137, 137);
+}
+.extrawidth > i {
+  border: none;
 }

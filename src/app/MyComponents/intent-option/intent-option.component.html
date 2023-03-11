@@ -30,24 +30,10 @@
         <p>Not enough data to show insights</p>
       </div>
       <div class="data" *ngIf="datadiv">
-        <div class="columns" *ngFor="let intent of intentarraydata">
+        <div class="columns">
           <div class="details">
             <p class="tag">Unanswerd</p>
-            <h3>{{ intent.title }}</h3>
-            <p>{{ intent.msg }}</p>
-          </div>
-          <div class="actions">
-            <button class="action-btn">Map to existing reply</button>
-            <button class="action-btn">Add reply</button>
-            <button class="action-btn no-border">
-              <i class="far fa-clipboard"></i>
-            </button>
-          </div>
-        </div>
-        <!-- <div class="columns">
-          <div class="details">
-            <p class="tag">Unanswerd</p>
-            <h3>What time you are open..</h3>
+            <h4>Do you deal in real state</h4>
             <p>Asked 32 times last week</p>
           </div>
           <div class="actions">
@@ -60,18 +46,40 @@
         </div>
         <div class="columns">
           <div class="details">
-            <p class="tag">Unanswerd</p>
-            <h3>Where are you folks located...</h3>
-            <p>Asked 32 times last week</p>
+            <p class="tag orange">Improve coverage</p>
+            <h4>
+              What time you are open...&nbsp;<i
+                class="fas fa-plus-circle icon"
+              ></i>
+            </h4>
+            <p>Found 2 similar utterances</p>
           </div>
-          <div class="actions">
+          <!-- <div class="actions">
             <button class="action-btn">Map to existing reply</button>
             <button class="action-btn">Add reply</button>
             <button class="action-btn no-border">
               <i class="far fa-clipboard"></i>
             </button>
+          </div> -->
+        </div>
+        <div class="columns">
+          <div class="details">
+            <p class="tag purple">Underperforming</p>
+            <h4>
+              Where are you folks located...&nbsp;<i
+                class="fas fa-plus-circle icon"
+              ></i>
+            </h4>
+            <p>5 catch all request after resding this</p>
           </div>
-        </div> -->
+          <!-- <div class="actions">
+            <button class="action-btn">Map to existing reply</button>
+            <button class="action-btn">Add reply</button>
+            <button class="action-btn no-border">
+              <i class="far fa-clipboard"></i>
+            </button>
+          </div> -->
+        </div>
       </div>
     </div>
   </div>

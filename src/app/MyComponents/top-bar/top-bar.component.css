@@ -17,11 +17,22 @@
 .apptitle {
   font-weight: 700;
   font-size: 1.5rem;
+  display: inline-block;
 }
 .col,
 .col-sm {
   padding: 0 1rem;
 }
+.col > img {
+  width: 30px;
+  margin: auto 0.3rem;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .col-sm {
   width: 65%;
 }
@@ -58,7 +69,9 @@
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
-
+.col > .select-btn {
+  font-weight: 550;
+}
 .col > ul {
   display: inline-block;
   display: flex;
@@ -69,4 +82,13 @@ ul > li {
 }
 li > i {
   font-size: 20px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  cursor: pointer;
+}
+li > i:hover {
+  font-size: 22px;
 }

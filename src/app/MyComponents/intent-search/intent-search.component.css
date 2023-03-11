@@ -9,7 +9,7 @@ h5 {
   font-weight: 700;
 }
 p {
-  width: 80%;
+  width: 90%;
   /* padding: 0.6rem 0; */
   padding-top: 0.6rem;
 }
@@ -21,11 +21,13 @@ p {
 }
 .search {
   margin: 0 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 .search > .icon {
   background-color: white;
   border: 1px solid rgb(153, 153, 153);
-  padding: 0.5rem 0.7rem;
+  padding: 0.1rem 0.7rem;
   font-size: 0.8rem;
   color: rgb(120, 120, 120);
 }
@@ -50,6 +52,10 @@ input {
 }
 .labels > h5 {
   width: 20%;
+}
+.main_div > h5 {
+  font-weight: 600;
+  color: rgb(92, 92, 92);
 }
 .results {
   padding: 0 2rem;
@@ -112,6 +118,7 @@ input {
   -moz-transition: var(--transition);
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
+  color: rgb(92, 92, 92);
 }
 .add:hover {
   font-weight: 700;

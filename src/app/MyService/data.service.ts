@@ -22,7 +22,7 @@ export class DataService {
       title: 'Bye',
       message: 54,
       importance: 0.02,
-      accuracy: 0.5,
+      accuracy: '.5',
       catch: 5,
       color: 'red',
     },

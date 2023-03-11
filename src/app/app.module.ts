@@ -14,6 +14,7 @@ import { CatchAllOptionComponent } from './MyComponents/catch-all-option/catch-a
 import { AnalyticsOptionComponent } from './MyComponents/analytics-option/analytics-option.component';
 import { IntentOptionComponent } from './MyComponents/intent-option/intent-option.component';
 import { SelectIntentComponent } from './MyComponents/select-intent/select-intent.component';
+import { IntentSearchComponent } from './MyComponents/intent-search/intent-search.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SelectIntentComponent } from './MyComponents/select-intent/select-inten
     AnalyticsOptionComponent,
     IntentOptionComponent,
     SelectIntentComponent,
+    IntentSearchComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

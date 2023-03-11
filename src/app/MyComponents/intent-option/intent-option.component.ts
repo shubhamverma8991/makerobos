@@ -24,7 +24,7 @@ export class IntentOptionComponent implements OnInit {
   }
   ngDoCheck(): void {
     this.datadiv = this.data.showallIntent;
-    this.intentarraydata = this.data.intentData;
+    // this.intentarraydata = this.data.intentData;
     console.log('check ' + this.datadiv);
     // if ((this.datadiv = false)) {
     //   this.intentpresent = true;
