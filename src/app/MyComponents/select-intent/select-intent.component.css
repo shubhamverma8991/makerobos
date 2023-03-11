@@ -51,6 +51,11 @@ h4 {
   -o-border-radius: 5px;
   margin-bottom: 0.5rem;
 }
+.orange {
+  border: 1px solid pink;
+  background-color: #ffe7cb;
+  color: rgb(253, 41, 76);
+}
 .details {
   margin-top: 1rem;
 }

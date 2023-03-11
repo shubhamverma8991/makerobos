@@ -38,6 +38,9 @@ h3 {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
 }
+.option > p {
+  padding: 0.2rem 0;
+}
 .active,
 .option:hover,
 .bot_detail:hover {

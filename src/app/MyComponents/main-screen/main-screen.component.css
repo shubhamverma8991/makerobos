@@ -5,11 +5,11 @@
 }
 app-main-options {
   position: relative;
-  width: 28%;
+  width: 23%;
   /* width: calc((100%-72%)); */
 }
 app-options-display {
-  width: 72%;
+  width: 77%;
   /* width: calc(100%-28%); */
 }
 app-add-intent,

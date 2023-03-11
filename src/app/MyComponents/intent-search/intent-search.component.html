@@ -1,10 +1,10 @@
-<div class="analytics_option_container">
+<div class="intent_search_container">
   <h3>Intents(10)</h3>
   <p>
     Browse through existing intents that were created eariler and imporve
     coverage by adding more variations
   </p>
-  <div class="analytics_option_container_inner">
+  <div class="intent_search_container_inner">
     <div class="search">
       <button class="btn icon">
         <i class="fa fa-search"></i
@@ -15,7 +15,7 @@
           placeholder="search intent or utterance"
         />
       </button>
-      <button class="btn">+ Add intent</button>
+      <button class="btn">+ &nbsp;Add intent</button>
     </div>
   </div>
   <div class="formAnalysis">
@@ -23,26 +23,58 @@
       <h5>Intent</h5>
     </div>
     <div class="main_div">
+      <div class="options">
+        <span><i class="fa fa-pencil-square-o"></i>&nbsp;&nbsp;&nbsp;Edit</span>
+        <span><i class="fa fa-copy"></i>&nbsp;&nbsp;&nbsp;Replicate </span>
+        <span
+          ><i class="fa fa-trash" aria-hidden="true"></i
+          >&nbsp;&nbsp;&nbsp;Delete</span
+        >
+      </div>
       <div class="one">
         <h5>Greetings</h5>
-        <i class="fa-solid fa-ellipsis-vertical"></i>
+        <span class="span" (click)="toggleOptions()"
+          ><i class="fa-solid fa-ellipsis-vertical"></i
+        ></span>
       </div>
+
       <h5>Hello there</h5>
       <h5>How are you doing?</h5>
       <h5>Nice to see you</h5>
       <h5>Is there any way we can help you?</h5>
       <button class="add">+ Add another variation</button>
+      <!-- <div class="options">
+        <span>Edit</span>
+        <span>Replicate</span>
+        <span>Delete</span>
+      </div> -->
       <div class="one mb-1">
         <h5>Bye</h5>
-        <i class="fa-solid fa-ellipsis-vertical"></i>
+        <span class="span" (click)="toggleOptions()"
+          ><i class="fa-solid fa-ellipsis-vertical"></i
+        ></span>
       </div>
+      <!-- <div class="options">
+        <span>Edit</span>
+        <span>Replicate</span>
+        <span>Delete</span>
+      </div> -->
       <div class="one mb-1">
         <h5>Office hours</h5>
-        <i class="fa-solid fa-ellipsis-vertical"></i>
+        <span class="span" (click)="toggleOptions()"
+          ><i class="fa-solid fa-ellipsis-vertical"></i
+        ></span>
       </div>
+      <!-- <div class="options">
+        <span>Edit</span>
+        <span>Replicate</span>
+        <span>Delete</span>
+      </div> -->
       <div class="one">
         <h5>Location</h5>
-        <i class="fa-solid fa-ellipsis-vertical"></i>
+        <span class="span" (click)="toggleOptions()"
+          ><i class="fa-solid fa-ellipsis-vertical"></i
+        ></span>
       </div>
     </div>
   </div>
